@@ -10,7 +10,7 @@ This project implements two versions of a Process Control Block (PCB) management
 
 ## Usage
 To run this project:
-  ```bash
+  ```
   gcc PCBv1.c -o PCBv1
   gcc PCBv2.c -o PCBv2
   ./PCBv1
