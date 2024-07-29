@@ -9,14 +9,10 @@ This project implements two versions of a Process Control Block (PCB) management
   - **Timer Integration**: Both versions include a timing mechanism to measure the execution duration of operations using microsecond precision.
 
 ## Usage
-To run this project:
+To compile and run all programs, use the provided Makefile:
   ```
-  gcc PCBv1.c -o PCBv1
-  gcc PCBv2.c -o PCBv2
-  ./PCBv1
-  ./PCBv2
+  make all
   ```
-To use either version of the PCB management system, compile the C source code with a C compiler (e.g., GCC) and run the resulting executable. You can switch between different PCB structure implementations by choosing to compile either `PCBv1.c` or `PCBv2.c`.
 
 ## Prerequisites
   - GCC compiler or any standard C compiler
