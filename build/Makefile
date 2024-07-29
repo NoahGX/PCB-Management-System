@@ -1,4 +1,4 @@
-all: prog1 prog2 run
+all: prog1 prog2 run clean
 prog1: PCBv1.c
         gcc -std=c99 -o PCBv1 PCBv1.c
 prog2: PCBv2.c
